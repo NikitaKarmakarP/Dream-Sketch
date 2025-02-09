@@ -61,11 +61,6 @@ To deploy the app, use GitHub Pages or any cloud hosting provider:
 
 ---
 
-## 🌍 Live Demo (Optional)
-Visit the Live Demo
-
----
-
 ## 🏗 Roadmap
 
 **Planned Enhancements:**
@@ -92,8 +87,8 @@ We welcome contributions! Feel free to submit pull requests or report issues.
 ## 📫 Contact
 For any questions or suggestions, please feel free to reach out:
 
-- **GitHub:** Your GitHub Profile
-- **Email:** your-email@example.com
+- **GitHub:** https://github.com/NikitaKarmakarP
+- **Email:** nikitakarmakar831@gmail.com
 
 ---
 
