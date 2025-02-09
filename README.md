@@ -1,4 +1,4 @@
-# Dream Sketch: AI Sleep Visualizer 🎨💭
+# 🔮 Dream Sketch: AI Sleep Visualizer 🎨💭
 
 Dream Sketch is an AI-driven web application where users log their dreams, and the AI generates interactive and surreal 3D environments to represent the dream elements. It combines cutting-edge technologies to bring your subconscious experiences to life.
 
