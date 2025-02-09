@@ -20,20 +20,33 @@ Dream Sketch is an AI-driven web application where users log their dreams, and t
 
 ---
 
-## 📦 Installation
+## Project Structure
+
+![image](https://github.com/user-attachments/assets/e09a5109-fdec-4964-854d-b3b341033e08)
+
+---
+
+## 📦Installation Instructions
 Follow these steps to set up the project locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/DreamSketch.git
-   cd DreamSketch
+   git clone https://github.com/your-username/dream-sketch-ai.git
+   cd dream-sketch-ai
 2. **Install Dependencies:**
+   **Client Dependencies**
+   cd client
    npm install
-3. **Set Up API Keys:**
-  - Get your Stable Diffusion API key and add it to stableDiffusionApi.js.
-  - Ensure you have access to any required backend services.
-4. **Run the Development Server:**
-    npm start
+  **Server Dependencies**
+   cd ../server
+   npm install
+   
+3. **Start the Application**
+   **Start the Server**
+   node app.js
+  **Start the Client**
+   cd ../client
+   npm start
 
 ---
 
@@ -43,6 +56,38 @@ Follow these steps to set up the project locally:
 - **Experience:** Navigate surreal landscapes influenced by your dreams.
 
 ---
+
+## Usage Instructions
+
+- Open the application in your browser at http://localhost:3000.
+- Enter a description of your dream in the text input field.
+- Submit the dream to visualize it as an interactive 3D environment.
+
+---
+
+## API Endpoints
+
+**POST /interpret-dream**
+
+- **Description:** Accepts dream text and returns AI-generated dream elements.
+
+- **Request Body:**
+{
+  "dreamText": "I was flying over a beautiful city with colorful lights."
+}
+
+- **Response:**
+{
+  "objects": [
+    { "x": 1.5, "y": -2.3, "z": 3.1, "size": 1.2, "color": "#FF5733" }
+  ]
+}
+
+## Future Enhancements
+
+- Integration with Stable Diffusion API for detailed image generation.
+- Advanced AI dream analysis using natural language processing.
+- Improved emotion mapping and customizable 3D rendering.
 
 ## 🚀 Deployment
 To deploy the app, use GitHub Pages or any cloud hosting provider:
